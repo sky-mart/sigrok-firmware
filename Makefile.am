@@ -25,6 +25,7 @@ dist_pkgdata_DATA = \
 	asix-sigma/asix-sigma-200.fw \
 	asix-sigma/asix-sigma-50.fw \
 	asix-sigma/asix-sigma-50sync.fw \
+	dreamsourcelab-dslogic/DSLogicPlus-pgl12-2.bin \
 	sysclk-lwla/sysclk-lwla1034-extneg.rbf \
 	sysclk-lwla/sysclk-lwla1034-extpos.rbf \
 	sysclk-lwla/sysclk-lwla1034-int.rbf \
@@ -32,6 +33,7 @@ dist_pkgdata_DATA = \
 
 dist_noinst_DATA = \
 	asix-sigma/LICENSE.Sigma \
+	dreamsourcelab-dslogic/LICENSE.DreamSourceLab \
 	sysclk-lwla/LICENSE.LWLA
 
 MAINTAINERCLEANFILES = ChangeLog
